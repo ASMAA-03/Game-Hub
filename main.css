@@ -194,11 +194,13 @@ width: 420px;
   width: fit-content;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .card-content{
   line-height: 23px;
   height: 100px;
   padding: 15px;
+  width: 100%;
 }
 .card-content svg{
 height: 27px;
@@ -241,12 +243,11 @@ transition: 0.4s;
 .rate-name-cont{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
 }
 .rate-name-cont span,
 .card-content p{
 color: rgb(193, 187, 187);
+
 }
 .rate-name-cont h3{
   margin-right: 196px;
