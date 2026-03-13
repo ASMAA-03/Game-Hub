@@ -75,10 +75,13 @@ overflow-x: hidden;
 border-bottom: 1px solid var(--border-subtle);
 margin-bottom: 24px;
 }
-.logo-mark{
+.logo-sec{
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.logo{
+  color: var(--accent);
 }
 .logo-title{
   font-family: var(--font-display);
@@ -88,11 +91,10 @@ margin-bottom: 24px;
   background: linear-gradient(135deg,#d8b4fe,#a855f7,#7c3aed);
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
-  background-clip: text;
 }
 .close{
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   color: var(--text-muted);
  background: none;
  border: none;
@@ -102,9 +104,10 @@ margin-bottom: 24px;
 .close:hover{
   color: var(--text-primary);
   background: var(--bg-hover);
+  border-radius: 50%;
 }
 .nav-label{
-font-size: 0.65rem;
+font-size: 0.7rem;
 font-weight: 600;
 letter-spacing: 0.1em;
 text-transform: uppercase;
@@ -153,7 +156,7 @@ border-color: var(--border);
 .sidebar-profile{
   border-top: 1px solid var(--border-subtle);
   padding-top: 16px;
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -171,31 +174,22 @@ border-color: var(--border);
   background: var(--bg-hover);
 }
 .profile-avatar{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: var(--font-display);
-  font-size: 0.7rem;
-  font-weight: 700;
   color: #fff;
-  width: 38px;
-  height: 38px;
+  width: 50px;
+  height: 45px;
   border-radius: 50%;
   background: linear-gradient(135deg,#7c3aed,#a855f7,#c084fc);
-
 }
 .profile-name{
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: var(--text-accent);
 }
 .profile-level{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
-  margin-top: 1px;
+  margin-top: 4px;
 }
 
 .sign-out{
